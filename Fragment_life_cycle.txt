@@ -1,0 +1,80 @@
+All Lifecycle of Fragment
+
+
+    @Override
+    public void onAttach(Activity activity) {
+        // TODO Auto-generated method stub
+        super.onAttach(activity);
+        Log.e("wf", "onAttach");
+    }
+    
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
+        super.onCreate(savedInstanceState);
+        Log.e("wf", "onCreate");
+    }
+    
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
+        Log.v("wf", "onCreateView");
+        return view;
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
+        super.onActivityCreated(savedInstanceState);
+        Log.e("wf", "onActivityCreated");
+    }
+    
+    @Override
+    public void onStart() {
+        // TODO Auto-generated method stub
+        super.onStart();
+        Log.e("wf", "onStart");
+    }
+
+    @Override
+    public void onResume() {
+        // TODO Auto-generated method stub
+        super.onResume();
+        Log.v("wf", "onResume");
+    }
+
+    @Override
+    public void onStop() {
+        // TODO Auto-generated method stub
+        super.onStop();
+        Log.v("wf", "onStop");
+    }
+
+   @Override
+    public void onPause() {
+        // TODO Auto-generated method stub
+        super.onPause();
+        Log.e("wf", "onPause");
+    }
+
+    @Override
+    public void onDestroy() {
+        // TODO Auto-generated method stub
+        super.onDestroy();
+        Log.v("wf", "onDestory");
+    }
+    
+    @Override
+    public void onDestroyView() {
+        // TODO Auto-generated method stub
+        super.onDestroyView();
+        Log.e("wf", "onDestroyView");
+    }
+    
+    @Override
+    public void onDetach() {
+        // TODO Auto-generated method stub
+        super.onDetach();
+        Log.e("wf", "onDetach");
+    }
