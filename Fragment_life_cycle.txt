@@ -1,4 +1,4 @@
-All Lifecycle of Fragment
+All Lifecycle of Fragment  Can be called by times
 
 
     @Override
